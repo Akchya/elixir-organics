@@ -1,0 +1,152 @@
+.cartitems {
+    margin: 100px 170px;
+}
+
+.cartitems hr {
+    height: 3px;
+    background: #e2e2e2;
+    border: none;
+}
+
+.cartitem-format-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitems-format {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.carticon-producticon {
+    height: 62px;
+}
+
+.remove-icon {
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.cartitems-quantity {
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: white;
+}
+
+.cartitems-down {
+    display: flex;
+    margin: 100px 0px;
+}
+
+.cartitems-total {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+    width: 50%;
+}
+
+.cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.cartitems-total button {
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #004c59;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cartitems-total button:hover {
+    transition: .3s ease-in-out;
+    background-color: #f65024;
+}
+
+.cartitems-promocode {
+    flex: 1;
+    font-size: 16px;
+    font: 500;
+}
+
+.cartitems-promocode p {
+    color: #454545;
+}
+
+.cartitems-promobox {
+    width: 504px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background: #eaeaea;
+}
+
+.cartitems-promobox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height: 50px;
+}
+
+.cartitems-promobox button {
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    background-color: #004c59;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .cartitems {
+        margin: 70px 15px 0 15px;
+    }
+
+    .cartitem-format-main {
+        gap: 35px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .cartitems-format {
+        gap: 40px;
+        font-size: 10px;
+        text-align: start;
+    }
+
+    .remove-icon {
+        margin: 0;
+    }
+
+    .cartitems-down {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cartitems-total {
+        margin-right: 0;
+        width: 85%;
+        & h1 {
+            text-align: center;
+        }
+        & button {
+            width: auto;
+        }
+    }
+}
