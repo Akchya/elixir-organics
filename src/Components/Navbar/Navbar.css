@@ -127,7 +127,7 @@
     .nav-menu {
         width: 75%;
         flex-direction: column;
-        background: radial-gradient(circle, rgba(108,150,158,1) 0%, rgba(255,255,255,1) 100%);
+        background: #eef4e9
     }
 
     .navbar {
@@ -163,6 +163,7 @@
         width: 85vw;
         top: 69px;
         left: 0;
+        padding: 20px 0;
         overflow: auto;
         overflow-x: hidden;
         transform: translateX(-100%);
@@ -172,6 +173,7 @@
 
     .navbar ul.open {
         display: flex;
+        padding: 20px 0;
         transform: translateX(0);
         z-index: 1;
         transition: transform .5s ease-in-out;

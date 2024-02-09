@@ -32,6 +32,7 @@ const Navbar = () => {
         <ul className={menuOpen ? "nav-menu open" : "nav-menu" }>
             <li onClick={() => {setMenu('shop'); setMenuOpen(false)}}><Link style={{textDecoration: 'none'}} to='/' >Home</Link></li>
             <li onClick={() => {setMenu('mens'); setMenuOpen(false)}}><Link style={{textDecoration: 'none'}} to='/mens' >Products</Link></li>
+            <li onClick={() => {setMenu('about'); setMenuOpen(false)}}><Link style={{textDecoration: 'none'}} to='/about' >About</Link></li>
             {/* <li onClick={() => {setMenu('womens')}}><Link style={{textDecoration: 'none'}} to='/womens' >Women</Link></li>
             <li onClick={() => {setMenu('kids')}}><Link style={{textDecoration: 'none'}} to='/kids' >Kids</Link>{menu==='kids' ? <hr/> : <></>}</li> */}
         </ul>

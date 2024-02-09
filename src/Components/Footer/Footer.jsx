@@ -5,31 +5,33 @@ import phone_icon from '../Assets/phone_icon.png'
 import instgram_icon from '../Assets/instagram_icon.png'
 import pinterrest_icon from '../Assets/pintester_icon.png'
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
+import email_icon from '../Assets/email_icon.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-logo">
-            <img src={footer_logo} alt="" />
+            <Link to={'/'}><img src={footer_logo} alt="" /></Link>
         </div>
         <div className="footer-social-icon">
             <div className="footer-items-container">
-                <a href="tel:+918431784878" target='blank'>
+                <a href="tel:+919164916495" target='blank'>
                     <img src={phone_icon} alt="" />
                 </a>
             </div>
             <div className="footer-items-container">
-                <a href="https://instagram.com/akxay.07" target='blank'>
+                <a href="https://instagram.com/elixir_organics_" target='blank'>
                     <img src={instgram_icon} alt="" />
                 </a>
             </div>
             <div className="footer-items-container">
-                <a href="https://in.pinterest.com/cakshay201/" target='blank'>
-                    <img src={pinterrest_icon} alt="" />
+                <a href="mailto: elixirorganicsindia@gmail.com" target='blank'>
+                    <img src={email_icon} alt="" />
                 </a>
             </div>
             <div className="footer-items-container">
-                <a href="https://api.whatsapp.com/send?phone=918431784878" target='blank'>
+                <a href="https://api.whatsapp.com/send?phone=919164916495" target='blank'>
                     <img src={whatsapp_icon} alt="" />
                 </a>
             </div>
@@ -47,17 +49,17 @@ const Footer = () => {
                 </a>
                 </div>
             </div>
-        </div> */}
+        </div>
         <ul className="footer-links">
             <li>Company</li>
             <li>Produts</li>
             <li>Offeces</li>
             <li>About</li>
             <li>Contact</li>
-        </ul>
+        </ul> */}
         <div className="footer-copyright">
             <hr />
-            <p>Copyright @2023 - All Rights Reserved.</p>
+            <p>&#169; 2024 ELIXIR ALL RIGHTS RESERVED</p>
         </div>
     </div>
   )
