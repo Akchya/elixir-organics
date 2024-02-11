@@ -3,17 +3,17 @@ import p2_img from './Elixir organic mockup bottle.jpg'
 
 let data_product = [
   {
-    id:1,
+    id:2,
     name:"Elixir Organic Wood Pressed Coconut Oil",
     image:p1_img,
-    new_price:50.00,
-    old_price:80.50,
+    new_price:399.0,
+    old_price:499.0,
   },
-  {id:2,
+  {id:3,
     name:"Elixir Organic Wood Pressed Sunflower Oil",
     image:p2_img,
-    new_price:85.00,
-    old_price:120.50,
+    new_price:399.0,
+    old_price:499.0,
   },
 ];
 
