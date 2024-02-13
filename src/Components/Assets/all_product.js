@@ -20,8 +20,8 @@ let all_product = [
     image: p2_img,
     new_price: 399.0,
     old_price: 499.0,
-    short_description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi dignissimos impedit veritatis unde architecto veniam enim optio iusto neque ea repellat aliquam consectetur, earum, dolor sed dolore, porro alias. Iure. Dolorum dolores repudiandae quaerat autem accusamus molestias recusandae dignissimos, libero deleniti odio aliquam quasi neque nihil modi, praesentium ullam ad ducimus! Consequatur, libero aliquam. Atque voluptate exercitationem inventore quas laboriosam. Eaque accusantium delectus modi voluptate magnam sit ipsa voluptatum porro asperiores.",
-    long_description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi dignissimos impedit veritatis unde architecto veniam enim optio iusto neque ea repellat aliquam consectetur, earum, dolor sed dolore, porro alias. Iure. Dolorum dolores repudiandae quaerat autem accusamus molestias recusandae dignissimos, libero deleniti odio aliquam quasi neque nihil modi, praesentium ullam ad ducimus! Consequatur, libero aliquam. Atque voluptate exercitationem inventore quas laboriosam. Eaque accusantium delectus modi voluptate magnam sit ipsa voluptatum porro asperiores.",
+    short_description: "Pure and natural wood-pressed coconut oil: Cold-pressed for maximum quality, retaining all the nourishing benefits of coconut, ideal for cooking, skincare, and haircare.",
+    long_description: "Pure and natural wood-pressed coconut oil: Cold-pressed for maximum quality, retaining all the nourishing benefits of coconut, ideal for cooking, skincare, and haircare.",
   },
   {
     id: 3,
